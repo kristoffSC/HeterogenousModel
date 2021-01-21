@@ -14,6 +14,8 @@ public class App {
         //modelMap.put(Dictionary.FIELD_B, "This will not work, compile Time Error");
         modelMap.put(Dictionary.FIELD_B, new Date());
 
-        String value = modelMap.get(Dictionary.FIELD_A);
+        String value1 = modelMap.get(Dictionary.FIELD_A);
+        //Integer value2 = modelMap.get(Dictionary.FIELD_A); //Compile Time error
+
     }
 }
