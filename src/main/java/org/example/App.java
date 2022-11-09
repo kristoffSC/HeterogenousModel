@@ -11,7 +11,7 @@ public class App {
 
         modelMap.put(Dictionary.FIELD_A, "hello");
 
-        //modelMap.put(Dictionary.FIELD_B, "This will not work, compile Time Error"); oh oh
+        //modelMap.put(Dictionary.FIELD_B, "This will not work, compile Time Error");
         modelMap.put(Dictionary.FIELD_B, new Date());
 
         String value1 = modelMap.get(Dictionary.FIELD_A);
